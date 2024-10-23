@@ -45,3 +45,22 @@ pie = 3.14
 num = 4/3
 ans = num*pie*r1**3
 print(ans)
+name = input('enter your name')
+num = int(input('enter a number'))
+age = 100-num
+print(age)
+mass = float(input('enter the mass'))
+c = 3*108**2
+ans = mass*c
+print(ans)
+name = input('enter your age')
+roll = int(input('enter a roll number'))
+clas = int(input('what class are you in'))
+address = input('enter your adress line 1')
+city = input('enter your city')
+pin = int(input('enter a pin'))
+parent/guardian = ('enter guardian num')
+          
+address2 = input('enter address line 2')
+
+
