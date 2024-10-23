@@ -49,6 +49,8 @@ name = input('enter your name')
 num = int(input('enter a number'))
 age = 100-num
 print(age)
+year = age+2024
+print(year)
 mass = float(input('enter the mass'))
 c = 3*108**2
 ans = mass*c
@@ -59,8 +61,7 @@ clas = int(input('what class are you in'))
 address = input('enter your adress line 1')
 city = input('enter your city')
 pin = int(input('enter a pin'))
-parent/guardian = ('enter guardian num')
-          
+guardian = ('enter guardian num')     
 address2 = input('enter address line 2')
 
 
