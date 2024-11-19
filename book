@@ -1,0 +1,32 @@
+b= string.find(sub, 12, 22)
+
+c= string.find(sub, 15, 25)
+
+print(a,b,c)
+ #isalnum checks if the data is true or false
+string1 = 'abc123'
+string2 = 'hello'
+string3 = '12345'
+string4 = ' '
+a = string.isalnum()
+print(a)
+b = string2.isalnum()
+print(b)
+c = string3.isalnum()
+print(c)
+d = string4.isalnum()
+print(d)
+string = 'hello'
+string2 = 'there'
+string3 = 'Goldy'
+string4.islower
+a = string.isalnum()
+print(a)
+b = string2.isalnum()
+print(b)
+c = string3.isalnum()
+print(c)
+
+
+
+ 
