@@ -1,0 +1,19 @@
+#p293 question1
+num = input('enter a ten digit phone number include dashes')
+length = len(num)
+if num[3]=='-' and num[7]=='-':
+  print('valid')
+else:
+        print('invalid')
+# question 2
+string = input('enter a string')
+length = len(string)
+empt = ''
+for a in range(0,lenght,1)
+
+                                                                                                                                                                                              
+
+
+        
+
+
