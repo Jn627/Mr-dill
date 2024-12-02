@@ -9,7 +9,26 @@ else:
 string = input('enter a string')
 length = len(string)
 empt = ''
-for a in range(0,lenght,1)
+print(string)
+for a in range(0,length,1):
+    if string[a].isdigit() == True:
+        empt+=string[a]
+        print(empt)
+    
+    
+
+#question 3
+string = input('enter a string mofo')
+print(string)
+length = len(string)
+print(length)
+for a in range(0,length,1):
+    if strin
+   a = string.isalnum()
+print(x)
+
+
+ 
 
                                                                                                                                                                                               
 
