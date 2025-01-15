@@ -1,0 +1,39 @@
+#1
+for i in range(0,11):
+  print(i)
+#2
+for i in range(11,0,-1):
+    print(i)
+#3
+hash = '#'
+counter = 0
+for i in range(0,7):
+    counter = counter+1
+    print(hash*counter)
+#4
+hash ='#'
+rows = int(input('enter the number of rows'))
+colums = int(input('enter the number of clums'))
+for i in range(0,rows,1):
+    ans = hash*colums
+    print(ans)
+
+#5
+for i in range(0,11,1):
+  ans = i*i
+  print(ans)
+
+#6
+for i in range(0,100,1):
+   if i%2 == 0:
+    print(i)
+#7
+for i in range(0,100,1):
+    if i%2 == 1:
+        print(i)
+#8
+counter = 0
+for i in range(0,100,1):
+  counter = counter + i
+  print(counter)
+#9
