@@ -1,0 +1,85 @@
+print("""
+        1
+          2
+            3
+        """)
+text = "Test./nNext line."
+print(text)
+print('one','two'*2)
+print('one'+'two'*2)
+print (len('012345465'))
+s = '0123456789'
+print (s[3],",",s[0:3],'~',s[2:5])
+print(s[:3],"-",s[3:],",",s[3:100])
+print(s[20:], s[2:1],s[1:1])
+s = '987654321'
+print(s[-1], s[-3])
+print(s[-3:],'-',s[:-3])
+print(s[-100:-3],s[-100:3])
+#2.
+'''
+y= str(123)
+x = 'hello'*3
+print(x,y)
+x = 'hello' + 'world'
+y = len(x)
+print(y,x)
+
+x = 'hello' +\
+'to pyhton' +\
+'world'
+for char in x:
+    y = char
+    print(y,':',end = '')
+
+x = 'hello world'
+print(x[:2],x[:-2],x[-2:])
+print(x[6],x[2:4])
+print(x[2:-3],x[-4:-2])
+'''
+#3
+thestr = 'there is a test'
+inputstr = input('enter a interger:')
+inputlnt = int(inputstr)
+teststr = thestr
+while inputlnt >=0:
+    teststr = teststr [1:-1]
+    inputlnt = inputlnt - 1
+    testBool ='t' in teststr
+    print(thestr)
+    print(teststr)
+    print(inputlnt)
+    print(testBool)
+#4
+teststr = 'abcdefghi'
+inputstr = input('enter integer:')
+inputlnt = int(inputstr)
+count = 2
+newstr = ''
+while count <= inputlnt:
+    newstr = newstr + teststr[0: count]
+    teststr = teststr[2:]
+    count = count + 1
+    print(newstr)
+    print(teststr)
+    print(count)
+    print(inputlnt)
+    #5
+inputstr = input('give me a string:')
+biglnt = 0
+littlelnt = 0
+otherlnt = 0
+for ele in inputstr:
+    if ele >='a' and ele <='m':
+        littlelnt = littlelnt + 1
+    elif ele >'m' and ele <='z':
+            biglnt = biglnt + 1
+    else:
+            otherlnt = otherlnt + 1
+            print(biglnt)
+            print(littlelnt)
+            print(otherlnt)
+            print(inputstr.isdigit())
+            
+            
+
