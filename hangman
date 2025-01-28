@@ -1,0 +1,18 @@
+life = 7
+blank = '_______'
+secretword = 'bluedad'
+userguess = input('enter a letter')
+for i in secretword:
+ blank = blank + " _"
+ print(blank)
+while life > 0:
+ if userguess in secretword:
+  x = secretword.count(userguess)
+  y = secretword.find(userguess)
+ blank =blank[0:y]+userguess+blank[7:]
+else:
+     life = life-1
+     if life == 0:
+        print ('gameover')
+
+       print('incorrect')
