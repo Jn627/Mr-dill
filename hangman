@@ -1,18 +1,65 @@
 life = 7
-blank = '_______'
-secretword = 'bluedad'
-userguess = input('enter a letter')
-for i in secretword:
- blank = blank + " _"
- print(blank)
-while life > 0:
- if userguess in secretword:
-  x = secretword.count(userguess)
-  y = secretword.find(userguess)
- blank =blank[0:y]+userguess+blank[7:]
-else:
-     life = life-1
-     if life == 0:
-        print ('gameover')
+secretword = 'brickedup'
+blank = '_'*len(secretword)
+print('Hangman game you have 7 lives')
+while "_" in blank:
+    userguess = input('enter a letter')
+    if userguess in secretword:
+        x = secretword.count(userguess)
+        y = secretword.find(userguess)
+        blank = blank[0:y]+userguess+blank[y+1:]
+        print('correct good guess',blank)
+        if blank == secretword:
+            print('W for the boys ong god skibity toilet')
+    else:
+        life = life - 1
+        print('wrong guess -1 life')
+        if life == 0:
+         print('gameover')
+         break
+game2 = input('would you like to play another game')
+if game2 == 'yes':
+    life = 7
+    secretword = 'brickedup'
+    blank = '_'*len(secretword)
+    print('Hangman game you have 7 lives')
+    while "_" in blank:
+        userguess = input('enter a letter')
+        if userguess in secretword:
+            x = secretword.count(userguess)
+            y = secretword.find(userguess)
+            blank = blank[0:y]+userguess+blank[y+1:]
+            print('correct good guess',blank)
+            if blank == secretword:
+             print('W for the boys ong god skibity toilet')
+        else:
+            life = life - 1
+            print('wrong guess -1 life')
+            if life == 0:
+             print('gameover')
+             break
+if life == 7:
+  print('''
+ | |
+ O |
+/|\|
+/ \|''')
+if life == 5:
+    print('| |')
+if life == 4:
+ print('O |')
 
-       print('incorrect')
+  
+  
+        '''
+ +---+
+ | |
+ O |
+/|\|
+/ \|
+'''
+       
+
+       
+         
+    
