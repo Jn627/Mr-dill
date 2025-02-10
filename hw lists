@@ -1,0 +1,31 @@
+x = []
+y = [1,2,3]
+w = [1,2,5,3,7,9]
+p = ['a','b','c']
+b = ['a',1,'b',3.5]
+c = ['a',1,'b',3.5,'zero']
+m = ['one','two','three',]
+l = ['one','two','three']
+print(x,y,w,p,b,c,m,l)
+#11.2.1 creating lists
+l = [2,4,6]
+p = ['abc','def',]
+j = [1,2.0,3,4.0]
+s = []
+print(l,p,j,s)
+#nested lists
+l = [3,4,[5,6],7]
+print(l)
+l1 = list('hello')
+print(l1)
+t = ('w','e','r','t','y')
+l2 = list(t)
+print(l2)
+l1 = list(input('Enter string elements'))
+print(l1)
+'''a = eval(input('enter list must be added'))
+print('list you entered',a)'''
+
+            
+
+          
