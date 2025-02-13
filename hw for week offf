@@ -1,0 +1,21 @@
+#answering questions revision on current work in chapter (C)
+t = ['a','b','c']
+t.reverse()
+print(t)
+#2
+l = input('enter a list')
+b = list(l)
+list1 = input('enter a list')
+list2 = input('enter a list')
+c = list(list2)
+print(b+c)
+
+# 3ask the user to enter a list 1 to 12 replace each num with 10
+print('enter a number between 1,12')
+number_list = []
+for i in range(10):
+    number = int(input('enter a number'))
+    number_list.append(number)
+print(number_list)
+#4 Ask the user to enter a list of strings.Create a new list that consists of those strings with their
+#first characters
