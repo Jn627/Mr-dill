@@ -1,0 +1,13 @@
+# 2 player game excersie Code X and O
+#Converting the string into a list
+print('x and o game')
+player1 = input('player1 please enter a X').split()
+print(player1)
+player2 = input('player2 please enter a O').split()
+print(player2)
+# Making the game board
+grid1 = ('|1|2|3|').split()
+print(grid1)
+grid2 = ('|4|5|6|').split()
+print(grid2)
+grid3 = ( '|7|8|9|').split()
