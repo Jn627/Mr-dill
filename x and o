@@ -1,13 +1,22 @@
 # 2 player game excersie Code X and O
-#Converting the string into a list
 print('x and o game')
-player1 = input('player1 please enter a X').split()
+print('player1 you are x you go ')
+print('player2 you are y')
+player1 = ['x']
 print(player1)
-player2 = input('player2 please enter a O').split()
+player2 = ['y']
 print(player2)
 # Making the game board
-grid1 = ('|1|2|3|').split()
+grid1 = ['_','_','_']
 print(grid1)
-grid2 = ('|4|5|6|').split()
+grid2 = ['_','_','_']
 print(grid2)
-grid3 = ( '|7|8|9|').split()
+grid3 = ['_','_','_']
+print(grid3)
+player1_guess = input('enter grid1 grid2 or grid3 ensure you spell the same')
+if player1_guess == 0:
+    player1guess = grid1
+if player1_guess == 1:
+    player1_guess = grid2
+if player1_guess == 2:
+    player1_guess = grid3
