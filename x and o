@@ -1,22 +1,27 @@
 # 2 player game excersie Code X and O
 print('x and o game')
-print('player1 you are x you go ')
+print('player1 you are x you go first ')
 print('player2 you are y')
 player1 = ['x']
 print(player1)
 player2 = ['y']
 print(player2)
 # Making the game board
-grid1 = ['_','_','_']
+grid1 = ['0','1','2']
+grid2 = ['0','1','2']
+grid3 = ['0','1','2']
 print(grid1)
-grid2 = ['_','_','_']
 print(grid2)
-grid3 = ['_','_','_']
 print(grid3)
-player1_guess = input('enter grid1 grid2 or grid3 ensure you spell the same')
-if player1_guess == 0:
-    player1guess = grid1
-if player1_guess == 1:
-    player1_guess = grid2
-if player1_guess == 2:
-    player1_guess = grid3
+#taking in the user guess of player 1
+player1_guess = input('enter grid1 grid2 or grid3 spell the same')
+if player1_guess == 'grid1':
+    x_y = int(input('enter a number betweeen 0 and 2'))
+    grid1[x_y] = 'x'
+    print(grid1)
+if  player1_guess == 'grid2':
+    x_y = int(input('enter a number betweeen 0 and 2'))
+    grid2[x_y] = 'x'
+    print(grid2)  
+#elif player1_guess == grid2: 
+    #if player1_guess == grid3
