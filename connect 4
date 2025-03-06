@@ -1,0 +1,24 @@
+connect 4 game .....
+print('connect4 game lets player')
+print('player1 you are red so you get to go first')
+print('player2 you are yellow so you go second')
+player1 = ['red']
+player2 = ['yel']
+# Creating the gameboard r = row
+r1 =['1','2','3','4','5','6','7']
+print(r1)
+r2 =['1','2','3','4','5','6','7']
+print(r2)
+r3 =['1','2','3','4','5','6','7']
+print(r3)
+r4 =['1','2','3','4','5','6','7']
+print(r4)
+r5 =['1','2','3','4','5','6','7']
+print(r5)
+r6 =['1','2','3','4','5','6','7']
+print(r6)
+#dropping the disk
+
+
+
+while
