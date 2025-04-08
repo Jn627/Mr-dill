@@ -1,0 +1,11 @@
+lis =[2,4,5,7,8,9,12,14,17,19,22,25,27,28,33,37]
+value = int(input('Enter a target value'))
+low = 0
+high = 15
+m = high+low//2
+if m == vlaue
+print('thats the answer congrats')
+if m > value
+mm=m-1
+if m < value
+mn = m+1
