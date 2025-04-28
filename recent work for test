@@ -1,0 +1,20 @@
+evision questions
+#71
+sports = ['soccer','fortnite']
+ursport = input('enter a sport')
+sports.append(ursport)
+sports.sort()
+print(sports)
+
+#72
+sub = ['maths','eng','sci','com','eco','wk']
+print(sub)
+dis = input('enter the sub which you dislike')
+sub.remove(dis)
+print(sub)
+#74
+color = ['red','blue','yel','green','black','purple','navy','pink','grey','indigo',]
+num1 = input('enter a number between 0 and 4')
+num2 = input('enter a number between 5 and 9')
+color[num1:num2]
+print(color)
