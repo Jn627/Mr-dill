@@ -1,0 +1,26 @@
+counts ={}
+counts2 =dict({})
+counts3 =dict()
+print(counts)
+print(counts2)
+#to ass a key value pair
+counts['games']
+print(counts)
+counts['players']
+print(counts)
+#to find num items
+print(len(counts))
+#to check if a key is in a dictionary
+if 'players' in counts:
+    print('players found')
+if'managers' not in counts:
+    print('managers not found')
+#To print a value
+print(counts['games'])
+print(counts)
+print(counts.get('games'))
+print(counts)
+print(counts.pop('games'))
+print(counts)
+
+for key in counts.keys():
